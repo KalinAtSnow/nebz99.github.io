@@ -29,7 +29,7 @@ window.addEventListener("load", function () {
 });
 
 function AddHint1(){
-    this.document.getElementById("hint").innerText = "have you looked at the title?";
+    this.document.getElementById("hint").innerText = "Have you looked at the title?";
 }
 function AddHint2() {
 

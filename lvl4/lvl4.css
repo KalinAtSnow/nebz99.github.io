@@ -82,6 +82,10 @@
     flex-direction: row;
     
 }
+#pixel{
+    padding: .5em;
+    margin:0em;
+}
 h4{
     text-align: center;
 }

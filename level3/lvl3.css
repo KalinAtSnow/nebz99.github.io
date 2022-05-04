@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "h h h h"
+    "i t t t" /*image title*/
+    "d d d d" /*data*/
+    "o r a a" /*options addons*/
+    "f f f f"; /*footer*/
+}
+
+a:visited{
+    color:blue;
+}
+#header{
+    grid-area: h;
+    text-align: center;
+}
+#image{
+    grid-area: i;
+}
+#title{
+    grid-area: t;
+    text-align: center;
+}
+#options{
+    grid-area: o;
+    text-align: center;
+}
+#addons{
+    grid-area: a;
+}
+#footer{
+    grid-area: f;
+    text-align: center;
+}
+#restrictions{
+    grid-area: r;
+    text-align: left;
+}
+i,t,o,a,r{
+    padding:0px;
+    margin: 0px;
+}

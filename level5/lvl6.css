@@ -1,0 +1,20 @@
+div{
+    position: relative;
+    top:0;
+    left:0;
+}
+#ChangeMyContrast{
+    filter:contrast(100%);
+    position:relative;
+    top:0;
+    left:0;
+}
+.JustWait{
+    filter:contrast(100%);
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+img{
+    filter:contrast(0%);
+}

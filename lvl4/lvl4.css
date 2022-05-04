@@ -1,0 +1,132 @@
+@media screen and (min-width: 450px) {
+    #one{
+        order:1;
+    }
+    #two{
+        order:2;
+    }
+    #three{
+        order:3;
+    }
+    #four{
+        order:4;
+    }
+    #five{
+        order:5;
+    }
+    #six{
+        order:6;
+    }
+    #seven{
+        order:7;
+    }
+    #eight{
+        order:8;
+    }
+}
+@media screen and (min-width: 700px) {
+    #one{
+        order:6;
+    }
+    #two{
+        order:3;
+    }
+    #three{
+        order:8;
+    }
+    #four{
+        order:2;
+    }
+    #five{
+        order:1;
+    }
+    #six{
+        order:7;
+    }
+    #seven{
+        order:4;
+    }
+    #eight{
+        order:5;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #one{
+        order:2;
+    }
+    #two{
+        order:5;
+    }
+    #three{
+        order:3;
+    }
+    #four{
+        order:8;
+    }
+    #five{
+        order:6;
+    }
+    #six{
+        order:1;
+    }
+    #seven{
+        order:4;
+    }
+    #eight{
+        order: 7;
+    }
+}
+#flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+h4{
+    text-align: center;
+}
+#title{
+    font-weight: 300;
+    flex: 1 0 100%;
+}
+#joke{
+    flex: 6 0 50%;
+    border: 3px solid pink;
+    text-align: center;
+}
+#one, #two, #three, #four, #five, #six, #seven,#eight{
+    flex: 1 0 25%;
+    color:black;
+}
+#one{
+    /* order:8; */
+    background-color: indianred;
+}
+#two{
+    /* order:7; */
+    background-color: orange;
+}
+#three{
+    /* order:6; */
+    background-color: yellow;
+}
+#four{
+    /* order:5; */
+    background-color: greenyellow;
+}
+#five{
+    /* order:4; */
+    background-color: green;
+}
+#six{
+    /* order:3; */
+    background-color: blue;
+}
+#seven{
+    /* order:2; */
+    background-color: indigo;
+}
+#eight{
+    /* order:1; */
+    background-color: violet;
+}
